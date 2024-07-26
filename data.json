@@ -1,0 +1,174 @@
+{
+  "vocabulary": {
+    "beginner": {
+      "greetings": [
+        {
+          "questionType": "mcq",
+          "question": "Which one of these is 'hello'?",
+          "word": "salut",
+          "options": ["bonjour", "oui", "merci", "salut"],
+          "answer": "salut"
+        },
+        {
+          "questionType": "fill-in",
+          "question": "__ Rhoda!",
+          "word": "salut",
+          "options": ["bonjour", "oui", "salut", "merci"],
+          "answer": "salut"
+        }
+      ],
+      "everydayWords": [
+        {
+          "questionType": "mcq",
+          "question": "Which one of these is 'hello'?",
+          "word": "salut",
+          "options": ["bonjour", "oui", "merci", "salut"],
+          "answer": "salut"
+        },
+        {
+          "questionType": "fill-in",
+          "question": "__ Rhoda!",
+          "word": "salut",
+          "options": ["bonjour", "oui", "salut", "merci"],
+          "answer": "salut"
+        }
+      ]
+    },
+    "intermediate": {
+      "greetings": [
+        {
+          "questionType": "mcq",
+          "question": "Which one of these is 'hello'?",
+          "word": "salut",
+          "options": ["bonjour", "oui", "merci", "salut"],
+          "answer": "salut"
+        },
+        {
+          "questionType": "fill-in",
+          "question": "__ Rhoda!",
+          "word": "salut",
+          "options": ["bonjour", "oui", "salut", "merci"],
+          "answer": "salut"
+        }
+      ],
+      "everydayWords": [
+        {
+          "questionType": "mcq",
+          "question": "Which one of these is 'hello'?",
+          "word": "salut",
+          "options": ["bonjour", "oui", "merci", "salut"],
+          "answer": "salut"
+        },
+        {
+          "questionType": "fill-in",
+          "question": "__ Rhoda!",
+          "word": "salut",
+          "options": ["bonjour", "oui", "salut", "merci"],
+          "answer": "salut"
+        }
+      ]
+    },
+    "advanced": {
+      "greetings": [
+        {
+          "questionType": "mcq",
+          "question": "Which one of these is 'hello'?",
+          "word": "salut",
+          "options": ["bonjour", "oui", "merci", "salut"],
+          "answer": "salut"
+        },
+        {
+          "questionType": "fill-in",
+          "question": "__ Rhoda!",
+          "word": "salut",
+          "options": ["bonjour", "oui", "salut", "merci"],
+          "answer": "salut"
+        }
+      ],
+      "everydayWords": [
+        {
+          "questionType": "mcq",
+          "question": "Which one of these is 'hello'?",
+          "word": "salut",
+          "options": ["bonjour", "oui", "merci", "salut"],
+          "answer": "salut"
+        },
+        {
+          "questionType": "fill-in",
+          "question": "__ Rhoda!",
+          "word": "salut",
+          "options": ["bonjour", "oui", "salut", "merci"],
+          "answer": "salut"
+        }
+      ]
+    }
+  },
+  "sentenceBuilding": {
+    "greetings": [
+      {
+        "questionType": "mcq",
+        "question": "Which one of these is 'hello'?",
+        "word": "salut",
+        "options": ["bonjour", "oui", "merci", "salut"],
+        "answer": "salut"
+      },
+      {
+        "questionType": "fill-in",
+        "question": "__ Rhoda!",
+        "word": "salut",
+        "options": ["bonjour", "oui", "salut", "merci"],
+        "answer": "salut"
+      }
+    ],
+    "everydayWords": [
+      {
+        "questionType": "mcq",
+        "question": "Which one of these is 'hello'?",
+        "word": "salut",
+        "options": ["bonjour", "oui", "merci", "salut"],
+        "answer": "salut"
+      },
+      {
+        "questionType": "fill-in",
+        "question": "__ Rhoda!",
+        "word": "salut",
+        "options": ["bonjour", "oui", "salut", "merci"],
+        "answer": "salut"
+      }
+    ]
+  },
+  "dialogueSimulation": {
+    "greetings": [
+      {
+        "questionType": "mcq",
+        "question": "Which one of these is 'hello'?",
+        "word": "salut",
+        "options": ["bonjour", "oui", "merci", "salut"],
+        "answer": "salut"
+      },
+      {
+        "questionType": "fill-in",
+        "question": "__ Rhoda!",
+        "word": "salut",
+        "options": ["bonjour", "oui", "salut", "merci"],
+        "answer": "salut"
+      }
+    ],
+    "everydayWords": [
+      {
+        "questionType": "mcq",
+        "question": "Which one of these is 'hello'?",
+        "word": "salut",
+        "options": ["bonjour", "oui", "merci", "salut"],
+        "answer": "salut"
+      },
+      {
+        "questionType": "fill-in",
+        "question": "__ Rhoda!",
+        "word": "salut",
+        "options": ["bonjour", "oui", "salut", "merci"],
+        "answer": "salut"
+      }
+    ]
+  }
+}
