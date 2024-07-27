@@ -471,13 +471,119 @@
       "section1": {
         "sectionDescription": "greetings",
         "questions": [
-          
+          {
+            "questionType": "fill-in",
+            "question": "__ rien",
+            "sentence": "You are welcome",
+            "options": ["de", "le", "la", "un"],
+            "answer": "de"
+          },
+          {
+            "questionType": "fill-in",
+            "question": "Quel est __ nom?",
+            "sentence": "What is your name?",
+            "options": ["ton", "mon", "son", "notre"],
+            "answer": "ton"
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'I am going to the store' in French",
+            "sentence": "I am going to the store",
+            "options": ["magasin", "au", "je", "vais"],
+            "answer": "je vais au magasin"
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'This is a book' in French",
+            "sentence": "This is a book",
+            "options": ["livre", "est", "un", "c'est"],
+            "answer": "c'est un livre"
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'Une fille mange un croissant' in English",
+            "sentence": "Une fille mange un croissant",
+            "options": ["girl", "croissant", "eating", "a", "is"],
+            "answer": "A girl is eating a croissant"
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'A woman is eating an orange' in French",
+            "sentence": "A woman is eating an orange",
+            "options": ["une", "mange", "une", "femme", "orange"],
+            "answer": "une femme mange une orange"
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'A man and a cat' in French",
+            "sentence": "A man and a cat",
+            "options": ["un", "chat", "et", "un", "homme"],
+            "answer": "un homme et un chat"
+          }
         ]
       },
      "section2": {
         "sectionDescription": "everydayWords",
         "questions": [
-         
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'It's an orange' in French",
+            "sentence": "It's an orange",
+            "options": ["c'est", "un", "orange", "une"],
+            "answer": "c'est une orange"
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'It is a school' in French",
+            "sentence": "It is a school",
+            "options": ["c'est", "un", "école", "une"],
+            "answer": "c'est une école"
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'I am going to work' in French",
+            "sentence": "I am going to work",
+            "options": ["au", "je", "travail", "vais"],
+            "answer": "je vais au travail"
+          },
+
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'We are coming home' in French",
+            "sentence": "We are coming home",
+            "options": ["maison", "nous", "venons", "à"],
+            "answer": "nous venons à la maison"
+          },
+
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'a handsome boy' in French",
+            "sentence": "a handsome boy",
+            "options": ["beau", "un", "garçon", "jeune"],
+            "answer": "un garçon beau"
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'a beautiful girl' in French",
+            "sentence": "a beautiful girl",
+            "options": ["belle", "une", "fille", "petite"],
+            "answer": "une fille belle"
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'a big house' in French",
+            "sentence": "a big house",
+            "options": ["grande", "une", "maison", "garçon"],
+            "answer": "une maison grande"
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'a small cat' in French",
+            "sentence": "a small cat",
+            "options": ["petit", "un", "chat", "fille"],
+            "answer": "un chat petit"
+          }
+          
         ]
       }
     },
@@ -485,18 +591,169 @@
       "section1": {
         "sectionDescription": "greetings",
         "questions": [
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'The man is a doctor' in French",
+            "sentence": "The man is a doctor",
+            "options": ["médecin", "L'homme", "est", "un"],
+            "answer": "L'homme est un médecin"
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'The boy is my friend' in French",
+            "sentence": "The boy is my friend",
+            "options": ["Le", "garçon", "est", "mon", "ami"],
+            "answer": "Le garçon est mon ami"
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'I speak French' in French",
+            "sentence": "I speak French",
+            "options": ["Je", "parle", "français"],
+            "answer": "Je parle français"
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'She is a teacher' in French",
+            "sentence": "She is a teacher",
+            "options": ["Elle", "est", "professeur"],
+            "answer": "Elle est professeur"
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'He is a student' in French",
+            "sentence": "He is a student",
+            "options": ["garçon","Il", "est", "étudiant"],
+            "answer": "Il est étudiant"
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'She is a doctor' in French",
+            "sentence": "She is a doctor",
+            "options": ["Elle", "professeur","est", "médecin"],
+            "answer": "Elle est médecin"
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'He is a teacher' in French",
+            "sentence": "He is a teacher",
+            "options": ["Il", "est", "maison","professeur"],
+            "answer": "Il est professeur"
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'She is a student' in French",
+            "sentence": "She is a student",
+            "options": ["étudiante", "Elle", "est", "magasin"],
+            "answer": "Elle est étudiante"
+          },
+
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'The book is on the table' in French",
+            "sentence": "The book is on the table",
+            "options": ["la tableau","Le livre", "est", "sur", "chat"],
+            "answer": "Le livre est sur la table"
+          },
+          {
+            "questionType": "fill-in",
+            "question": "je suis ___ femme",
+            "sentence": "Je suis une femme",
+            "options": ["moi", "un", "une", "et"],
+            "answer": "une"
+          }  
           
         ]
       },
      "section2": {
         "sectionDescription": "everydayWords",
         "questions": [
-         
+          {
+            "questionType": "fill-in",
+            "question": "__ est ma sœur",
+            "sentence": "Elle est ma sœur",
+            "options": ["Elle", "Il", "Nous", "Vous"],
+            "answer": "Elle"
+          },
+          {
+            "questionType": "fill-in",
+            "question": "__ sommes une famille",
+            "sentence": "Nous sommes une famille",
+            "options": ["Nous", "Vous", "Ils", "Je"],
+            "answer": "Nous"
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'I want coke and pizza' in French",
+            "sentence": "I want coke and pie",
+            "options": ["Je", "et", "pizza", "veux", "coca"],
+            "answer": "Je veux coca et pizza"
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'I am hungry' in French",
+            "sentence": "I am hungry",
+            "options": ["je", "affamé", "suis", "très"],
+            "answer": "Je suis affamé"
+          },
+          {
+            "questionType": "fill-in",
+            "question": "I eat everyday: Je __ chaque jour",
+            "sentence": "I eat every day",
+            "options": ["mange", "bois", "regarde", "écoute"],
+            "answer": "mange"
+          },
+          {
+            "questionType": "fill-in",
+            "question": "Le temps est __",
+            "sentence": "The weather is good",
+            "options": ["bon", "mauvais", "chaud", "froid"],
+            "answer": "bon"
+          },
+          {
+            "questionType": "fill-in",
+            "question": "The car is orange: La __ est orange",
+            "sentence": "The car is orange",
+            "options": ["voiture", "maison", "arbre", "chat"],
+            "answer": "voiture"
+          },
+          {
+            "questionType": "fill-in",
+            "question": "Je __ être infirmière",
+            "sentence": "I want to be a nurse",
+            "options": ["veux", "suis", "ai", "fais"],
+            "answer": "veux"
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'My brother is a carpenter' in French",
+            "sentence": "My brother is a carpenter",
+            "options": ["charpentier", "un", "est", "frère", "mon"],
+            "answer": "Mon frère est un charpentier"
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'I love oranges' in French",
+            "sentence": "I love oranges",
+            "options": ["oranges", "j'", "aime", "les"],
+            "answer": "J'aime les oranges"
+          }
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
         ]
       }
     }
+
   },
-  
+
   "dialogueSimulation": {
     "beginner": {
       "section1": {
