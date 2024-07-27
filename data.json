@@ -175,38 +175,91 @@
       }
     },
     "advanced": {
-      "greetings": [
-        {
-          "questionType": "mcq",
-          "question": "Which one of these is 'hello'?",
-          "word": "salut",
-          "options": ["bonjour", "oui", "merci", "salut"],
-          "answer": "salut"
-        },
-        {
-          "questionType": "fill-in",
-          "question": "__ Rhoda!",
-          "word": "salut",
-          "options": ["bonjour", "oui", "salut", "merci"],
-          "answer": "salut"
-        }
-      ],
-      "everydayWords": [
-        {
-          "questionType": "mcq",
-          "question": "Which one of these is 'hello'?",
-          "word": "salut",
-          "options": ["bonjour", "oui", "merci", "salut"],
-          "answer": "salut"
-        },
-        {
-          "questionType": "fill-in",
-          "question": "__ Rhoda!",
-          "word": "salut",
-          "options": ["bonjour", "oui", "salut", "merci"],
-          "answer": "salut"
-        }
-      ]
+      "section1": {
+        "sectionDescription": "greetings",
+        "questions": [
+          {
+            "questionType": "mcq",
+            "question": "Which one of these is 'see you later'?",
+            "word": "à plus tard",
+            "options": ["à plus tard", "bonne journée", "bienvenue", "salut"],
+            "answer": "à plus tard"
+          },
+          {
+            "questionType": "fill-in",
+            "question": "Excuse me Rhoda!. __ Rhoda!",
+            "word": "excusez-moi",
+            "options": ["à plus tard", "bienvenue", "excusez-moi", "merci"],
+            "answer": "excusez-moi"
+          },
+
+          {
+            "questionType": "mcq",
+            "question": "Which one of these is 'see you tommorrow'?",
+            "word": "à demain",
+            "options": ["merci", "bienvenue", "à demain", "à plus tard"],
+            "answer": "à demain"
+          },
+
+          {
+            "questionType": "mcq",
+            "question": "Select the correct meaning: 'journey'?",
+            "word": "voyage",
+            "options": ["travail", "magasin", "bonne journée", "voyage"],
+            "answer": "voyage"
+          },
+          {
+            "questionType": "mcq",
+            "question": "Write it in French, 'safe journey'",
+            "word": "bon voyage",
+            "options": ["bon nuit", "bonsoir", "travail", "bon voyage"],
+            "answer": "bon voyage"
+          }
+        ]
+      },
+     "section2": {
+        "sectionDescription": "everydayWords",
+        "questions": [
+          {
+            "questionType": "mcq",
+            "question": "The day",
+            "word": "le jour",
+            "options": ["le jour", "la nuit", "une fille", "je"],
+            "answer": "le jour"
+          },
+          {
+            "questionType": "fill-in",
+            "question": "__ suis Sam!",
+            "word": "je",
+            "options": ["tu", "nous", "vous", "ils"],
+            "answer": "je"
+          },
+
+          {
+            "questionType": "mcq",
+            "question": "Which of these is 'house'",
+            "word": "maison",
+            "options": ["jour", "maison", "livre", "école"],
+            "answer": "maison"
+          },
+
+          {
+            "questionType": "mcq",
+            "question": "Select the correct meaning: 'work'?",
+            "word": "travail",
+            "options": ["maison", "livre", "travail", "jour"],
+            "answer": "travail"
+          },
+
+          {
+            "questionType": "mcq",
+            "question": "Which of these is 'shore'",
+            "word": "magasin",
+            "options": ["magasin", "maison", "livre", "école"],
+            "answer": "magasin"
+          }
+        ]
+      }
     }
   },
   "sentenceBuilding": {
