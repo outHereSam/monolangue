@@ -63,7 +63,7 @@
 
           {
             "questionType": "mcq",
-            "question": "is",
+            "question": "am",
             "word": "suis",
             "options": ["nous", "suis", "vous", "les"],
             "answer": "suis"
@@ -142,10 +142,10 @@
           },
           {
             "questionType": "fill-in",
-            "question": "__ suis Sam!",
-            "word": "je",
-            "options": ["tu", "nous", "vous", "ils"],
-            "answer": "je"
+            "question": "garçon __ fille.",
+            "word": "et",
+            "options": ["et", "un", "une", "suis"],
+            "answer": "et"
           },
 
           {
@@ -170,6 +170,46 @@
             "word": "magasin",
             "options": ["magasin", "maison", "livre", "école"],
             "answer": "magasin"
+          },
+
+          {
+            "questionType": "mcq",
+            "question": "Which of these is 'book'",
+            "word": "livre",
+            "options": ["magasin", "maison", "livre", "école"],
+            "answer": "livre"
+          },
+
+          {
+            "questionType": "mcq",
+            "question": "Which of these is 'boy'",
+            "word": "garçon",
+            "options": ["garçon", "fille", "femme", "homme"],
+            "answer": "garçon"
+          },
+
+          {
+            "questionType": "mcq",
+            "question": "Which of these is 'girl'",
+            "word": "fille",
+            "options": ["garçon", "fille", "femme", "homme"],
+            "answer": "fille"
+          },
+
+          {
+            "questionType": "mcq",
+            "question": "Which of these is 'man'",
+            "word": "homme",
+            "options": ["garçon", "fille", "femme", "homme"],
+            "answer": "homme"
+          },
+
+          {
+            "questionType": "mcq",
+            "question": "Which of these is 'woman'",
+            "word": "femme",
+            "options": ["garçon", "fille", "femme", "homme"],
+            "answer": "femme"
           }
         ]
       }
@@ -214,7 +254,46 @@
             "word": "bon voyage",
             "options": ["bon nuit", "bonsoir", "travail", "bon voyage"],
             "answer": "bon voyage"
+          },
+
+          {
+            "questionType": "mcq",
+            "question": "Which one of these is a'car'?",
+            "word": "voiture",
+            "options": ["chat", "chien", "voiture", "tableau"],
+            "answer": "voiture"
+          },
+          {
+            "questionType": "mcq",
+            "question": "Weather",
+            "word": "temp",
+            "options": ["temp", "chien", "voiture", "chat"],
+            "answer": "temp"
+          },
+
+          {
+            "questionType": "mcq",
+            "question": "to go",
+            "word": "aller",
+            "options": ["aller", "avoir", "parler", "dire"],
+            "answer": "aller"
+          },
+          {
+            "questionType": "mcq",
+            "question": "to have",
+            "word": "avoir",
+            "options": ["aller", "avoir", "parler", "dire"],
+            "answer": "avoir"
+          },
+
+          {
+            "questionType": "mcq",
+            "question": "to say",
+            "word": "dire",
+            "options": ["aller", "avoir", "parler", "dire"],
+            "answer": "dire"
           }
+
         ]
       },
      "section2": {
@@ -222,41 +301,80 @@
         "questions": [
           {
             "questionType": "mcq",
-            "question": "The day",
-            "word": "le jour",
-            "options": ["le jour", "la nuit", "une fille", "je"],
-            "answer": "le jour"
+            "question": "To eat",
+            "word": "manger",
+            "options": ["aller", "manger", "parler", "dire"],
+            "answer": "manger"
           },
           {
             "questionType": "fill-in",
-            "question": "__ suis Sam!",
-            "word": "je",
+            "question": "__ es Sam!",
+            "word": "tu",
             "options": ["tu", "nous", "vous", "ils"],
-            "answer": "je"
+            "answer": "tu"
           },
 
           {
             "questionType": "mcq",
-            "question": "Which of these is 'house'",
-            "word": "maison",
-            "options": ["jour", "maison", "livre", "école"],
-            "answer": "maison"
+            "question": "Which of these is 'to speak'",
+            "word": "parler",
+            "options": ["aller", "avoir", "parler", "dire"],
+            "answer": "parler"
           },
 
           {
             "questionType": "mcq",
-            "question": "Select the correct meaning: 'work'?",
-            "word": "travail",
-            "options": ["maison", "livre", "travail", "jour"],
-            "answer": "travail"
+            "question": "Select the correct meaning: 'to be'?",
+            "word": "être",
+            "options": ["être", "avoir", "parler", "dire"],
+            "answer": "être"
           },
 
           {
             "questionType": "mcq",
-            "question": "Which of these is 'shore'",
-            "word": "magasin",
-            "options": ["magasin", "maison", "livre", "école"],
-            "answer": "magasin"
+            "question": "Which of these is 'to want'",
+            "word": "vouloir",
+            "options": ["aller", "avoir", "parler", "vouloir"],
+            "answer": "vouloir"
+          },
+
+          {
+            "questionType": "mcq",
+            "question": "petite",
+            "word": "small",
+            "options": ["larger", "big", "small", "pretty"],
+            "answer": "small"
+          },
+
+          {
+            "questionType": "mcq",
+            "question": "bad",
+            "word": "mauvais",
+            "options": ["petite", "mauvais", "jeune", "bon"],
+            "answer": "mauvais"
+          },
+          
+          {
+            "questionType": "mcq",
+            "question": "young",
+            "word": "jeune",
+            "options": ["petite", "mauvais", "jeune", "bon"],
+            "answer": "jeune"
+          },
+          
+          {
+            "questionType": "mcq",
+            "question": "beautiful",
+            "word": "beau",
+            "options": ["beau", "mauvais", "jeune", "viens"],
+            "answer": "beau"
+          },
+          {
+            "questionType": "mcq",
+            "question": "Which of these is 'the orange'?",
+            "word": "orange",
+            "options": ["orange", "papaya", "avocado", "pizza"],
+            "answer": "orange"
           }
         ]
       }
