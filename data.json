@@ -381,71 +381,164 @@
     }
   },
   "sentenceBuilding": {
-    "greetings": [
-      {
-        "questionType": "mcq",
-        "question": "Which one of these is 'hello'?",
-        "word": "salut",
-        "options": ["bonjour", "oui", "merci", "salut"],
-        "answer": "salut"
+    "beginner": {
+      "section1": {
+        "sectionDescription": "greetings",
+        "questions": [
+          {
+            "questionType": "fill-in",
+            "question": "Comment __ va?",
+            "sentence": "How are you?",
+            "options": ["ce", "ci", "ça", "sa"],
+            "answer": "ça"
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Write 'I am fine' in French",
+            "sentence": "I am fine",
+            "options": ["bien", "je", "bien"],
+            "answer": "je vais bien"
+          }, 
+          {
+            "questionType": "construct-sentence",
+            "question": "Construct the sentence: 'What is your name?'",
+            "sentence": "What is your name?",
+            "options": ["Comment", "tu", "t'appelles", "s'appelle"],
+            "answer": "Comment tu t'appelles?"
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Construct the sentence: 'My name is Eric'",
+            "sentence": "My name is Eric",
+            "options": ["m'appelle","Mon", "nom", "Eric", "est"],
+            "answer": "Mon nom est ..."
+          },
+          {
+            "questionType": "construct-sentence",
+            "question": "Construct the sentence: 'I am a boy'",
+            "sentence": "I am a boy",
+            "options": ["suis", "un","Je", "garçon", "une"],
+            "answer": "Je suis un garçon"
+          }
+        ]
       },
-      {
-        "questionType": "fill-in",
-        "question": "__ Rhoda!",
-        "word": "salut",
-        "options": ["bonjour", "oui", "salut", "merci"],
-        "answer": "salut"
+     "section2": {
+        "sectionDescription": "everydayWords",
+        "questions": [
+          {
+            "questionType": "construct-sentence",
+            "question": "Write in English: 'Tu manges une orange'",
+            "sentence": "Tu manges une orange",
+            "options": ["eating", "an", "orange", "you", "are"],
+            "answer": "You are eating an orange"
+          },
+          {
+            "questionType": "fill-in",
+            "question": "chat __ chein?",
+            "sentence": "cat and dog",
+            "options": ["ce", "et", "est", "sa"],
+            "answer": "chat et chein"
+          },
+
+          {
+            "questionType": "construct-sentence",
+            "question": "Write in French: 'Are you a man?'",
+            "sentence": "Are you a man?",
+            "options": ["fille","Es-tu", "un", "homme"],
+            "answer": "Es-tu un homme"
+          },
+          
+          {
+            "questionType": "construct-sentence",
+            "question": "Write in English: 'Tu es un chien'",
+            "sentence": "Tu es un chien",
+            "options": [ "a", "dog", "You", "are"],
+            "answer": "You are a dog"
+          },
+
+          {
+            "questionType": "fill-in",
+            "question": " __ homme ____ femme",
+            "sentence": "a man and a woman",
+            "options": ["un", "une", "et", "sa"],
+            "answer": "un et une"
+          }
+          
+        ]
       }
-    ],
-    "everydayWords": [
-      {
-        "questionType": "mcq",
-        "question": "Which one of these is 'hello'?",
-        "word": "salut",
-        "options": ["bonjour", "oui", "merci", "salut"],
-        "answer": "salut"
+    },
+    "intermediate": {
+      "section1": {
+        "sectionDescription": "greetings",
+        "questions": [
+          
+        ]
       },
-      {
-        "questionType": "fill-in",
-        "question": "__ Rhoda!",
-        "word": "salut",
-        "options": ["bonjour", "oui", "salut", "merci"],
-        "answer": "salut"
+     "section2": {
+        "sectionDescription": "everydayWords",
+        "questions": [
+         
+        ]
       }
-    ]
+    },
+    "advanced": {
+      "section1": {
+        "sectionDescription": "greetings",
+        "questions": [
+          
+        ]
+      },
+     "section2": {
+        "sectionDescription": "everydayWords",
+        "questions": [
+         
+        ]
+      }
+    }
   },
+  
   "dialogueSimulation": {
-    "greetings": [
-      {
-        "questionType": "mcq",
-        "question": "Which one of these is 'hello'?",
-        "word": "salut",
-        "options": ["bonjour", "oui", "merci", "salut"],
-        "answer": "salut"
+    "beginner": {
+      "section1": {
+        "sectionDescription": "greetings",
+        "questions": [
+          
+        ]
       },
-      {
-        "questionType": "fill-in",
-        "question": "__ Rhoda!",
-        "word": "salut",
-        "options": ["bonjour", "oui", "salut", "merci"],
-        "answer": "salut"
+     "section2": {
+        "sectionDescription": "everydayWords",
+        "questions": [
+         
+        ]
       }
-    ],
-    "everydayWords": [
-      {
-        "questionType": "mcq",
-        "question": "Which one of these is 'hello'?",
-        "word": "salut",
-        "options": ["bonjour", "oui", "merci", "salut"],
-        "answer": "salut"
+    },
+    "intermediate": {
+      "section1": {
+        "sectionDescription": "greetings",
+        "questions": [
+          
+        ]
       },
-      {
-        "questionType": "fill-in",
-        "question": "__ Rhoda!",
-        "word": "salut",
-        "options": ["bonjour", "oui", "salut", "merci"],
-        "answer": "salut"
+     "section2": {
+        "sectionDescription": "everydayWords",
+        "questions": [
+         
+        ]
       }
-    ]
+    },
+    "advanced": {
+      "section1": {
+        "sectionDescription": "greetings",
+        "questions": [
+          
+        ]
+      },
+     "section2": {
+        "sectionDescription": "everydayWords",
+        "questions": [
+         
+        ]
+      }
+    }
   }
 }
